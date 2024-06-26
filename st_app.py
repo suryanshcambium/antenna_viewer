@@ -88,8 +88,8 @@ if selected=="Parameters":
 
 
         with col2:
-            fig2 = px.line(df2, x = df2.index, y = df2.columns[3], markers = True, color = 'FileName', color_discrete_sequence=px.colors.qualitative.Dark24)
-            # , template='plotly_dark'
+            fig2 = px.line(df2, x = df2.index, y = df2.columns[3], color = 'FileName', color_discrete_sequence=px.colors.qualitative.Dark24)
+            # , template='plotly_dark', markers = True
 
             fig2.update_layout(
                 # width=1900,  # Set the width of the plot
@@ -107,8 +107,8 @@ if selected=="Parameters":
 
 
         with col3:
-            fig2 = px.line(df2, x = df2.index, y = df2.columns[0], markers = True, color = 'FileName', color_discrete_sequence=px.colors.qualitative.Dark24)
-            # , template='plotly_dark'
+            fig2 = px.line(df2, x = df2.index, y = df2.columns[0], color = 'FileName', color_discrete_sequence=px.colors.qualitative.Dark24)
+            # , template='plotly_dark', markers = True
 
             fig2.update_layout(
                 # width=1900,  # Set the width of the plot
@@ -124,8 +124,8 @@ if selected=="Parameters":
         
 
         with col4:
-            fig3 = px.line(df2, x = df2.index, y = df2.columns[1], markers = True, color = 'FileName', color_discrete_sequence=px.colors.qualitative.Dark24)
-            # , template='plotly_dark'
+            fig3 = px.line(df2, x = df2.index, y = df2.columns[1], color = 'FileName', color_discrete_sequence=px.colors.qualitative.Dark24)
+            # , template='plotly_dark', markers = True
 
             fig3.update_layout(
                 # width=1900,  # Set the width of the plot
